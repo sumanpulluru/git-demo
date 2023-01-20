@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo apt update
+sudo  echo "run apt upgrade and install nginx"
 sudo apt upgrade -y 
 sudo apt install -y nginx
 sudo apt install -y telnet
